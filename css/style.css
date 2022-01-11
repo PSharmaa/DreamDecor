@@ -1,0 +1,670 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+/* common css start here */
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size:35px;
+   
+}
+h3{
+    font-size:23px;
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+p{
+
+}
+ul{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+}
+a{
+    text-decoration: none;
+}
+.insider-main-title{
+    color:#FFF;
+}
+.insider-title{
+    color:#150e56;
+}
+.insider-sub-title{
+    color:#150e56;
+}
+.insider-main-disc{
+    font-size:20px;
+}
+.insider-disc{
+    color:#798777;
+}
+.top-navbar{
+    border-bottom:3px solid orangered;
+}
+.logo{
+    width:8%;
+    margin-right:10px;
+   
+}
+/* creative design section css style start here */
+.creative-design{
+    width:100%;
+    position: relative;
+}
+.creative-design-img{
+    width:100%;
+    height:500px;
+    object-fit: cover;
+    
+}
+.caption{
+    position:absolute;
+    top: 25%;
+    left: 7%;
+    color:#FFF;
+}
+.bg-video{
+    position: absolute;
+    top:70%;
+    left:10%;
+    width:35%;
+    height:55%;
+    background-color:#FFF;
+    box-shadow: 0px 5px 20px #00000033;
+    padding:5px;
+}
+.room-2{
+    width:100%;
+}
+/* our interior section css style start here */
+.our-intrior-desing-sec {
+    margin-top:150px;
+}
+.our-intrior-desing-first-col{
+    width:100%;
+    padding:20px;
+    box-shadow: 0px 5px 20px #00000033;
+}
+.room-1{
+    width:100%;
+}
+.our-intrior-desing-second-col{
+     width: 100%;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px #00000033;
+    background-color:#FFF;
+    height: 300px;
+    margin-right: -2px;
+    position: relative;
+    top: 39px;
+    right: 130px;
+    border-right: 3px solid orangered;
+}
+.our-intrior-right-arrow{
+    width:3%;
+    margin-left:5px;
+
+}
+/* what we do section css style start here */
+.what-we-do-first-col{
+height:100%;
+}
+.what-we-common{
+    box-shadow: 0px 5px 20px #00000033;
+    padding:20px;
+    border-right: 3px solid orangered;
+    border-bottom: 3px solid green;
+    border-radius: 0px 0px 60% 0px;
+}
+.what-we-do-common-img{
+    width:19%;
+}
+.what-we-do-right-arrow{
+    width:5%;
+    margin-left:7px;
+}
+/* our-project section css style start here */
+.our-project-btn{
+    width:100px;
+    height:50px;
+    border-radius:30px;
+    padding:10px;
+    background-color: #FF4030;
+    outline: none;
+    border:none;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity:0.8;
+}
+.our-project-common-img{
+    width:100%;
+    height: 100%;
+}
+/* team section css style start here */
+.my-team-common{
+     box-shadow: 0px 5px 20px #00000033;
+    text-align: center;
+    padding-bottom:10px;
+}
+.my-team-img{
+    width:100%;
+    height:100%;
+    border-radius:0px 0px 50% 0px;
+}
+/* our services section css style start here */
+.services-common{
+    width:100%;
+    box-shadow: 0px 5px 20px #00000033;
+    text-align: center;
+    padding:50px;
+    position: relative;
+}
+.services-common-1{
+    border-bottom: 3px solid orangered;
+}
+.services-common-2{
+    border-bottom: 3px solid blueviolet;
+}
+.services-common-3{
+    border-bottom: 3px solid orange;
+}
+.services-common-4{
+    border-bottom: 3px solid green;
+}
+.services-common-bg{
+    width:70px;
+    height:70px;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    border-radius: 100% 0px 0px 0px;
+ }
+.services-common-bg-1{
+    background-color:orangered;
+}
+.services-common-bg-2{
+    background-color:blueviolet;
+}
+.services-common-bg-3{
+    background-color:orange;
+}
+.services-common-bg-4{
+    background-color:green;
+}
+.services-common-bg-img{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* testimonial section css style start here */
+.testimonial{
+    position:relative;
+}
+.bg-red-sqaure{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.red-square-img{
+    width:50%;
+}
+.bg-circle{
+    position: absolute;
+    width:70px;
+    height:70px;
+    background-color: orangered;
+    top:60%;
+    right:40%;
+    border-radius: 100%;
+}
+.testimonial-common-content{
+    padding:30px;
+    box-shadow: 0px 5px 20px #00000033;
+    text-align: center;
+    border-top: 3px solid orangered;
+    height:100%;
+}
+/* footer section css style start here */
+.footer-sec{
+    box-shadow: 0px 5px 20px #00000033;
+    
+}
+.footer-content{
+    padding:20px;
+    text-align: center;
+
+}
+.logo-footer{
+    width:20%;
+}
+.footer-content h3 {
+    margin-bottom:20px;
+    }
+.footer-content a{
+    color:#000;
+}
+.footer-content a:hover{
+    color:green;
+}
+/* index page css end here */
+/* about page css start here */
+.about-heading{
+    background-color:#1cc5dc;
+    padding:7px;
+}
+.commit-our-creativity-sec{
+    padding:30px;
+    border-left: 3px solid green;
+    box-shadow: 0px 5px 20px #00000033;
+}
+.commit-img{
+    width:80%;   
+}
+/* slider sec css start here */
+.common-slider-icon{
+    width:20%;
+}
+.slider-common{
+    width:100%;
+    box-shadow: 0px 5px 20px #00000033;
+    padding:20px;
+    background-color:green;
+  }
+  .slider-common-2{
+    background-color:orangered;
+    width:100%;
+    box-shadow: 0px 5px 20px #00000033;
+    padding:20px;
+  }
+
+  .team-workflow-sec{
+      position:relative;
+  }
+  .team-work-flow-first-col{
+      margin-left: 150px;
+      margin-top:20px;
+      width:50%;
+      box-shadow: 0px 5px 20px #00000033;
+      padding:20px;
+      z-index: 99;
+  }
+.chat-img{
+    width:15%;
+    border-radius:100%;
+}
+.red-square-img-2{
+    position:absolute;
+    top:0px;
+    left:80px;
+    z-index:-3;
+    width:15%;
+    
+}
+.team-work-flow-first-col{
+    position:relative;
+}
+.bg-man{
+    position:absolute;
+    top:0px;
+    left:36px;
+    z-index:-4;
+}
+.bg-man-img{
+    width:90%;
+    opacity:0.2;
+}
+.team-work-flow-second-col{
+    position:relative;
+    margin-top:50px;
+    box-shadow: 0px 5px 20px #00000033;
+    padding:20px;
+}
+.bg-teamwork-img{
+    position: absolute;
+    top:0px;
+    left:40px;
+    z-index: -1;
+}
+.colored-square{
+    width: 45%;
+    opacity: 0.1;
+}
+
+  .department-common{
+    padding:20px;
+    box-shadow: 0px 5px 20px #00000033;
+    border:2px solid orangered;
+  }
+  .department-img{
+    width:50px;
+  }
+
+/* about page css end here */
+
+/* services page css start here */
+.graphic-services-sec{
+    padding:40px;
+    box-shadow: 0px 5px 20px #00000033;
+    border-radius: 0px 50% 0px 50%;
+}
+.graphic-left{
+    border-right:2px solid orangered;
+    padding:20px;
+}
+.graphic-right{
+    border-left:2px solid orangered;
+    padding:20px;
+}
+.seo-tool-sec{
+    padding:20px;
+}
+.seo-tool-first-col{
+    padding:20px;
+    }
+.services-btn{
+    width:150px;
+    height:50px;
+    border:1px solid orangered;
+    outline:none;  
+    
+
+}
+.boy-2-img{
+    width:90%;
+}
+.keyword-research-sec{
+    position: relative;
+}
+.circle-shap{
+    position:absolute;
+    top:50px;
+    right:0px;
+    z-index:-6;
+    background-color:orangered;
+    width:500px;
+    height:500px;
+    opacity: 0.2;
+    border-radius: 100%;
+}
+.seo-services-common{
+    padding:40px;
+    box-shadow: 0px 5px 20px #00000033;
+    margin-top:20px;
+    position: relative;
+    border-bottom:3px solid orangered;
+}
+.bg-bottom{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    width:90px;
+    height:90px;
+    background-color:orangered;
+    border-radius: 100% 0px 0px 0px;
+  
+}
+.common-green{
+    border-bottom:3px solid green;
+}
+.bg-bottom-2{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    width:90px;
+    height:90px;
+    background-color:green;
+    border-radius: 100% 0px 0px 0px;
+}
+.store-optimize-sec {
+    margin-top:100px;
+}
+.seo-common-icon{
+    width:65%;
+    margin-top:20px;
+    margin-left:30px;
+}
+.store-optimize-img{
+    width:100%;
+    z-index: -5;
+    border-radius: 100% 100% 0px 100%;
+    border:3px solid green;
+}
+.store-optimize-img-2{
+    width:100%;
+    opacity: 0.5;
+}
+.store-optimize-second-col{
+    padding:40px;
+    box-shadow: 0px 5px 20px #00000033;
+    position: relative;
+    right:50px;
+    top:70px;
+}
+.common-digital-agency{
+    border:1px solid orangered;
+    padding:20px;
+}
+.service-footer{
+    margin-top:150px;
+}
+
+.animation {
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 20px;}
+    75%  {top: 0px}
+    100% {top: 20px;}
+  }
+/* services page css end here */
+/* portfolio page css start here */
+.social-unit-left{
+    box-shadow: 0px 5px 20px #00000033;
+    height:300px;
+    width:300px;
+    position: relative;
+    left:130px;
+}
+.social-common{
+position: absolute;
+width:50px;
+height:50px;
+}
+
+.first-img{
+    top:-30px;
+    left:-30px;
+}
+.second-img{
+    top:-30px;
+    right:-30px;
+}
+.third-img{
+    bottom:0px;
+    left:0px;
+}
+.forth-img{
+    bottom:0px;
+    right:0px;
+}
+.fifth-img{
+    top:100px;
+    left:200px;
+}
+.sixth-img{
+    top:100px;
+    left:50px;
+}
+.seven-img{
+    top:188px;
+    left:100px;
+}
+.eight-img{
+    top:9px;
+    left: 138px;
+}
+.social-unit-right-child{
+    background-color: orangered;
+    padding:20px;
+}
+.feature-common{
+    box-shadow: 0px 5px 20px #00000033;
+    padding:20px;
+    margin-top:20px;
+}
+.feature-common:hover, .feature-common p:hover{
+    background-color:orangered;
+    color:#FFF;
+}
+.feartue-img{
+    width:50px;
+    height:50px;
+}
+
+.true-dream-col-first{
+    background-color: white;
+    box-shadow: 0px 5px 22px #00000033;
+    width:100%;
+    padding:35px;
+}
+.dream-flex-1{
+    display: flex;
+}
+.true-heading{
+    margin-left:20px;
+}
+.true-dream-col-second{
+    position:relative;
+}
+.circle-1{
+    display:flex;
+    width:50px;
+    height:50px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    position:relative;
+}
+.span-img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.ture-dream-sec{
+    position:relative;
+}
+.bg-true-dream{
+    position: absolute;
+    z-index: -1;
+    width:57%;
+    top: 50px;
+    right: 0;
+}
+.bread-cumb-sec p a{
+    text-decoration: none;
+    color:#798777;
+}
+/* portfolio page css end here */
+/* contect-us page css start here */
+.contect-us-sec{
+    background-image: url("../images/jpg/background-img.jpg");
+    background-size: cover;
+    padding:20px;
+}
+.address{
+    box-shadow: 0px 5px 22px #00000033;
+    padding:20px;
+    background-color:transparent;
+    color:white;
+}
+.circle{
+    background-color:#FFF;
+    width:50px;
+    height:50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    position:relative;
+}
+.circle-img-common{
+    position:absolute;
+    top:15px;
+    left:12px;
+    width:25px;
+    height:25px;
+}
+.contect-col-right{
+    box-shadow: 0px 5px 22px #00000033;
+    padding:20px;
+    background-color:#FFF;
+}
+input[type="text"] ,input[type="email"] {
+    height: 60px;
+    outline: none;
+    box-shadow: none !important;
+    border:1px solid orangered !important;
+    border-radius: 0px;
+    color:orangered !important;
+}
+.contect-footer{
+    margin-top: 0px;
+}
+.footer-sec a {
+   text-decoration: none;
+}
+.socail-common-icon{
+    width:14%;
+    margin-left:10px;
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right:10%;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .top-scrol-img{
+      width:100%;
+  }
+  .roate{
+      background-color:orangered;
+      padding:5px;
+      width:150px;
+      height:50px;
+      transform: rotate(90deg);
+      text-align:center;
+      position: fixed;
+      top: 40%;
+      left: -50px;
+      border-radius: 18px 20px 0px 0px;
+      border:none;
+      outline:none;
+      color:#FFF;
+      font-weight:bold;
+
+  }
+    
+/* contect-us page css end here */
